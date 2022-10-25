@@ -1,0 +1,190 @@
+/*inicio*/
+*{
+    font-family:  'Hind Madurai', sans-serif;
+}
+.img-logo{
+/*     background-image: url(/img/logo.png); */
+/*     background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    height: 100px;
+    background-color: white; */
+/*     width: 100px;
+    height: 100px;
+    padding: 10px 0; */
+}
+
+.header-h2{
+    font-size: 13px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: 100;
+    padding: 5px;
+}
+
+header{
+    position: sticky;
+    top: 0%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    /*padding: 20px 15px 35px 10px;*/
+}
+
+
+.ul-1{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-left: 470px;
+}
+
+.ul-1 li{
+    font-size: small;
+    padding-left: 20px;
+    position: relative;
+}
+
+.ul-1 ul{
+    position: relative;
+    display: none;
+}
+
+.ul-1 ul li{
+    display:block;
+}
+
+.ul-1 li:hover ul{
+    display: block;
+}
+
+.cuenta-1{
+ display: flex;
+/*  padding-left: 1100px; */
+ padding-bottom: 0;
+}
+
+.cuenta-1 a{
+    font-size: smaller;
+    margin: 5px;
+}
+
+
+.img-entrada{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.info-h5{
+    display: inline-flex;
+    margin-left: 420px;
+}
+
+
+.info-h5 li{
+    font-size: 18px;
+    font-family: 'Hind Madurai', sans-serif;
+    list-style: none;
+    padding: 25px;
+
+}
+
+.subtit-h1{
+    font-size: 18px;
+    font-family: 'Charm', cursive;
+    font-weight: 100;
+    text-align: center;
+}
+
+.subtit-p{
+    font-size: 15px;
+    font-family: 'Hind Madurai', sans-serif;
+    text-align: center;
+}
+
+.img-productos{
+    text-align: center;
+    margin: 20px 10px;
+}
+.img-muebles{
+    margin: 20px 10px;
+}
+
+.img-deco{
+    margin: 20px 10px;
+}
+
+.img-ilum{
+    margin: 20px 10px
+}
+
+.input-1{
+    font-size: 10px;
+    padding-top: 10px;
+    display: flex;
+}
+.input-1 button{
+    width: 20px;
+    height: 20px;
+}
+.input-1 input{
+    height: 20px;
+}
+
+.footer-1{
+    font-size: 10px;
+}
+
+
+/*Productos.html*/
+
+.menu-h1-2{
+    font-size: 10px;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+.menu-2{
+    font-size: 15px;
+    font-family: 'Hind Madurai', sans-serif;    
+}
+
+/*PreguntasFrecuentes.html*/
+.PF-h2{
+    font-size: 15px;
+    font-family: 'Hind Madurai', sans-serif; 
+}
+
+.listas{
+    font-size: 15px;
+    font-family: 'Hind Madurai', sans-serif; 
+    list-style: decimal;
+}
+
+.sucursales{
+    font-size: 15px;
+    font-family: 'Hind Madurai', sans-serif; 
+}
+
+
+/*Contacto.html*/
+.form-1{
+    font-size: 15px;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+
