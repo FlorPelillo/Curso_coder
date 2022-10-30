@@ -12,13 +12,16 @@ header {
     background-color: white;
 }
 
-
+.caja-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .caja-1 h2{
     font-size: 13px;
     text-align: center;
     color: white;
-    font-weight: 100;
-    padding: 5px;
+    font-weight: 50;
 }
 
 .img-logo {
@@ -123,6 +126,7 @@ header {
 .envios,.seguro,.cuotas {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .camion {
@@ -242,8 +246,6 @@ header {
     }
     
 }
-
-
 
 /*Productos.html*/
 
@@ -408,9 +410,35 @@ header {
         margin-left: 0;
     }
 
+    .caja-7, .caja-8, .caja-9{
+        display: none;
+    }
+
     #grilla-1{
         grid-template-rows: 1fr 3fr 1fr;
         grid-template-areas: "caja-1 caja-1 caja-1" "caja-5 caja-3 caja-4" "caja-2 caja-2 caja-2";
+    }
+
+    #grilla-2{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 4fr 1fr;
+        grid-template-areas: "caja-6 caja-6 caja-6" "caja-10 caja-10 caja-10";
+        grid-row-gap: 15px;
+    }
+
+    #grilla-3{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: "caja-11 caja-11 caja-11" "caja-12 caja-12 caja-12" "caja-13 caja-13 caja-13";
+    }
+
+    #grilla-4{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: "caja-14 caja-14 caja-14" "caja-15 caja-15 caja-15" "caja-16 caja-16 caja-16";
     }
 
 }
