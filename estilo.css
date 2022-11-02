@@ -10,6 +10,7 @@
 header {
     position: sticky;
     background-color: white;
+    font-family: 'Hind Madurai', sans-serif;
 }
 
 .caja-1{
@@ -64,7 +65,8 @@ header {
 
 
 .cuenta-1 a {
-    font-size: smaller;
+    font-size: 10px;
+    color: black;
     margin: 5px;
     text-decoration: none;
 }
@@ -168,12 +170,45 @@ header {
     margin: 20px 10px;
 }
 
+.img-muebles{
+    position: relative;
+    display: inline-block;
+    text-align: center;   
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+.zoom{
+    transition: transform 0.5s;
+}
+
+.zoom:hover{
+    transform: scale(1.2);
+}
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    text-shadow: 1px  0px 0px black;
+}
+
 .img-deco {
     margin: 20px 10px;
+    position: relative;
+    display: inline-block;
+    text-align: center;   
+    font-family: 'Hind Madurai', sans-serif;
 }
 
 .img-ilum {
-    margin: 20px 10px
+    margin: 20px 10px;
+    position: relative;
+    display: inline-block;
+    text-align: center;   
+    font-family: 'Hind Madurai', sans-serif;
 }
 
 
@@ -182,7 +217,7 @@ header {
     justify-content: space-around;
     font-size: 15px;
     margin-top: 20px;
-    background-color: rgb(226, 222, 222);
+    background-color: rgb(243, 240, 240);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
@@ -214,11 +249,7 @@ header {
 }
 
 
-@media (max-width:1000px)
-
-/* and (min-width:768px) */
-    {
-
+@media (max-width:1000px){
     .img-menu {
         width: 40px;
         height: 40px;
@@ -251,36 +282,30 @@ header {
 
 .menu-h1-2 {
     font-size: 10px;
-    font-family: 'Hind Madurai', sans-serif;
 }
 
 .menu-2 {
     font-size: 15px;
-    font-family: 'Hind Madurai', sans-serif;
 }
 
 /*PreguntasFrecuentes.html*/
 .PF-h2 {
     font-size: 15px;
-    font-family: 'Hind Madurai', sans-serif;
+    font-weight: bold;
 }
 
 .listas {
     font-size: 15px;
-    font-family: 'Hind Madurai', sans-serif;
     list-style: decimal;
 }
 
 .sucursales {
     font-size: 15px;
-    font-family: 'Hind Madurai', sans-serif;
 }
-
 
 /*Contacto.html*/
 .form-1 {
     font-size: 15px;
-    font-family: 'Hind Madurai', sans-serif;
 }
 
 #grilla-1{
@@ -375,6 +400,27 @@ header {
 .caja-16{
     grid-area: caja-16;
 }
+
+#grilla-5{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "caja-17 caja-17 caja-17" "caja-18 caja-18 caja-18" "caja-19 caja-19 caja-19";
+    margin: 20px;
+}
+
+.caja-17{
+    grid-area: caja-17;
+}
+
+.caja-18{
+    grid-area: caja-18;
+}
+
+.caja-19{
+    grid-area: caja-19;
+}
+
 
 @media (min-width:768px){
 .centrar-menu{
